@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 8rem;
+}
+
+.header a {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 2rem;
+    font-family: var(--playfair);
+    color: var(--preto);
+}
+
+.header img {
+    width: 2rem;
+}

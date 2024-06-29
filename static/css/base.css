@@ -1,0 +1,9 @@
+:root {
+    --preto: #000000;
+    --cinza-claro: #C0C0C0;
+    --cinza-escuro: #696969;
+    --branco: #ffffff;
+
+    --roboto: "Roboto", sans-serif;
+    --playfair: "Playfair", serif;
+}
