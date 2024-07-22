@@ -4,10 +4,10 @@
 
 {% block content %}
 <main class="index">
-    <form>
+    <form action="/convert" method="post">
         <label for="url">URL do vídeo:</label>
-        <input type="text" placeholder="ex: https://www.youtube.com/watch?v=C7akTOA5WqQ" />
-        <label>Instrumento:</label>
+        <input type="text" id="url" name="url" placeholder="ex: https://www.youtube.com/watch?v=C7akTOA5WqQ" />
+        <label for="instrument">Instrumento:</label>
         <select name="instrument" id="instrument">
             <option value="">--Escolha uma opção--</option>
             <option value="piano">Piano</option>

@@ -1,0 +1,5 @@
+.venv/
+static/midi_files
+static/musicxml
+static/pdf
+static/downloaded_audio.wav
